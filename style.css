@@ -1,0 +1,43 @@
+body{
+    background-color:black;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.header_div{
+   background-color:cyan;
+   color: black;
+   font-family: 'Lobster', cursive;
+}
+
+.header_div p {
+    font-family: 'Rampart One', cursive;
+    letter-spacing: 2px;
+    color: darkorange;
+    font-weight: bold;
+}
+
+.main_div button{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: medium;
+    margin-top: 30px;
+}
+
+.footer_div{
+    font-family: 'Cinzel Decorative', cursive;
+    line-height: 3;
+    position: fixed;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    background-color: cyan;
+    color: black;
+    font-weight: bolder;
+}
+
+#model_label, #model_confidence{
+    font-weight: bolder;
+    color: cyan;
+}
